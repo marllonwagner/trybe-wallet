@@ -1,0 +1,228 @@
+.wallet-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(225, 229, 235, 0.49);
+  border-radius: 0px;
+  height: 170px;
+}
+
+.wallet-form-editor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #2fc18cd3;
+  border-radius: 0px;
+  height: 170px;
+}
+
+.wallet-form {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+ 
+  height: 130px;
+}
+.value-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-value {
+box-sizing: border-box;
+
+width: 158px;
+height: 30px;
+
+border: 1px solid #003BE5;
+border-radius: 5px;
+}
+
+.input-value:optional {
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+
+color: #003BE5;  
+}
+
+.input-value-text {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 14px;
+
+color: #003BE5;
+}
+
+.description-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description-input {
+box-sizing: border-box;
+
+
+width: 288.86px;
+height: 30px;
+
+
+border: 1px solid #003BE5;
+border-radius: 5px;
+}
+
+.description-text {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #003BE5;
+}
+
+.currency-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.currency {
+box-sizing: border-box;
+
+
+width: 91px;
+height: 30px;
+
+background-color: white;
+border: 1px solid #003BE5;
+border-radius: 5px;
+}
+
+.currency:optional {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+
+color: #003BE5;
+}
+
+.currency-text {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 14px;
+
+color: #003BE5;
+}
+
+.method-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.method {
+box-sizing: border-box;
+width: 228px;
+height: 30px;
+border: 1px solid #003BE5;
+border-radius: 5px;
+}
+
+.method:optional {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+background-color: white;
+color: #003BE5;
+}
+
+.method-text {
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 14px;
+  
+  color: #003BE5;
+  
+}
+
+.category-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-text {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 14px;
+
+color: #003BE5;
+}
+
+.category {
+ box-sizing: border-box;
+
+width: 155px;
+height: 30px;
+
+border: 1px solid #003BE5;
+border-radius: 5px;
+}
+.category:optional {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+background-color: white;
+color: #003BE5;
+}
+.form-btn {
+ position: absolute;
+box-sizing: border-box;
+top: 400px;
+
+
+width: 330px;
+height: 40px;
+
+background: #2FC18C;
+border: 1px solid #2FC18C;
+border-radius: 5px;
+border: none;
+cursor: pointer;
+}
+
+.form-btn-text {
+  font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 14px;
+text-align: center;
+
+color: #FFFFFF;
+
+}

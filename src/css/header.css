@@ -1,0 +1,68 @@
+.wallet-header {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  width: 1000px;
+  height: 200px;
+}
+
+.expenses-text {
+
+height: 14px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 14px;
+color: #003BE5;
+}
+
+.value-text {
+
+height: 14px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 14px;
+color: #003BE5;
+}
+
+.total-field {
+ 
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+ 
+
+}
+
+.email-text {
+
+height: 14px;
+font-family: 'Epilogue';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 14px;
+display: flex;
+align-items: center;
+
+color: #2FC18C;
+}
+
+.email-field {
+  
+  height: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  
+ 
+}
+
+.logo-header-field {
+  height: 67px;
+}

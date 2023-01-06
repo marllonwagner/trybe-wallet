@@ -5,6 +5,13 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+   
+  background-image: url('./css/assets/backGroundLogin.svg') ;
+  background-size: cover ;
+  background-color: #2FC18C;
+ 
+  
+
 }
 
 code {
